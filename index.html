@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<script>
+    (function () { if (!window.chatbase || window.chatbase("getState") !== "initialized") { window.chatbase = (...arguments) => { if (!window.chatbase.q) { window.chatbase.q = [] } window.chatbase.q.push(arguments) }; window.chatbase = new Proxy(window.chatbase, { get(target, prop) { if (prop === "q") { return target.q } return (...args) => target(prop, ...args) } }) } const onLoad = function () { const script = document.createElement("script"); script.src = "https://www.chatbase.co/embed.min.js"; script.id = "dD4WuvrI5i0LBc1QficVu"; script.domain = "www.chatbase.co"; document.body.appendChild(script) }; if (document.readyState === "complete") { onLoad() } else { window.addEventListener("load", onLoad) } })();
+</script>
+
+<head>
+    <meta charset="name" content="describtion" />
+    <title>KARIM WALID</title>
+</head>
+
+<body>
+    <!-- <dl>
+        <dt>
+            html
+        </dt>
+        <dd>
+            language programming
+        </dd>
+    </dl>
+    <dl>
+        <dt>
+            css
+        </dt>
+        <dd>
+            shapful language
+        </dd>
+    </dl>
+    <hr>
+    <table border="4">
+        <tr>
+            <td>karim</td>
+            <td>21</td>
+            <td>mashtual</td>
+        </tr>
+        <thead>
+            <th>name</th>
+            <th>age</th>
+            <th>town</th>
+        </thead>
+        <tr>
+            <td>karim</td>
+            <td>21</td>
+            <td>mashtual</td>
+        </tr>
+        <tr>
+            <td>shimaa</td>
+            <td>9</td>
+            <td>mashtual</td>
+        </tr>
+        <tr>
+            <td>malak</td>
+            <td>12</td>
+            <td>mashtual</td>
+        </tr>
+        <caption>
+            students
+        </caption>
+        <tr>
+            <td colspan="2">total</td>
+            <td>42</td>
+        </tr>
+    </table>
+    <br>
+    karim walid farid
+    <span>
+        <mark>elsayed</mark>
+    </span>
+
+    <br />mohamed
+    <hr />
+    <div>
+        <h1>karim story</h1>
+        <p>very nice
+            <span>story</span>
+        </p>
+        &lt;p&gt;
+        <hr>
+
+    </div> -->
+    <div>
+        <form method="get" target="_blank" novalidate>
+            <div>
+                <label for="user">username</label>
+                <input id="user" name="user" type="text" placeholder="username" value="karim" readonly>
+
+            </div>
+
+            <div>
+                <label for="pas">password</label>
+                <input id="pas" name="pas" type="password" required placeholder="password" minlength="8" maxlength="20">
+            </div>
+            <div>
+                <label>subject</label>
+                <input name="sub" type="text" autofocus disabled>
+            </div>
+            <br>
+            <label for="color">color</label>
+            <input id="color" name="color" type="range" min="0" max="180" step="20" value="0">
+            <br>
+            <label for="num">number</label>
+            <input id="num" name="num" type="number" min="10" max="100">
+            <br>
+
+            <input id="win" type="radio" name="os" value="windows">
+            <label for="win">windows</label>
+            <br>
+            <input id="lin" type="radio" name="os" value="linux">
+            <label for="lin">linux</label>
+            <br>
+            <input id="mac" type="radio" name="os" value="mac">
+            <label for="mac">mac</label>
+
+            <hr>
+            <input id="win2" type="checkbox" name="os" value="windows">
+            <label for="win2">windows</label>
+            <br>
+            <input id="lin2" type="checkbox" name="os" value="linux">
+            <label for="lin2">linux</label>
+            <br>
+            <input id="mac2" type="checkbox" name="os" value="mac">
+            <label for="mac2">mac</label>
+            <br>
+            <label for="book"> choose book</label>
+            <select name="book" id="book">
+                <optgroup label="romatic">
+                    <option value="1" selected>book1</option>
+                    <option value="2">book2</option>
+                    <option value="3">book3</option>
+                </optgroup>
+                <optgroup label="drama">
+                    <option value="1">book1</option>
+                    <option value="2">book2</option>
+                    <option value="3">book3</option>
+                </optgroup>
+                <optgroup label="science">
+                    <option value="1">book1</option>
+                    <option value="2">book2</option>
+                    <option value="3">book3</option>
+                </optgroup>
+            </select>
+            <hr>
+            <textarea name="subject" id="sub" placeholder="text" cols="5 " rows="5"></textarea>
+            <label for="sub">textarea</label>
+            <br>
+            <label for="file">upload</label>
+            <input type="file" id="file" name="file">
+            <hr>
+            <div>
+                <label for="search">search</label>
+                <input id="search" type="search" name="search">
+            </div>
+            <hr>
+            <div>
+                <label for="url">url</label>
+                <input id="url" type="url" name="url">
+            </div>
+            <hr>
+            <div>
+                <label for="d">Date</label>
+                <input id="d" type="date" name="d">
+            </div>
+            <hr>
+            <div>
+                <label for="m">month</label>
+                <input id="m" type="month" name="m">
+            </div>
+            <hr>
+            <div>
+                <label for="t">time</label>
+                <input id="t" type="time" name="t">
+            </div>
+            <hr>
+            <label for="ball">football star</label>
+            <input id="ball" list="football star" name="star">
+            <datalist id="football star">
+                <option value="ronaldo"></option>
+                <option value="messi"></option>
+                <option value="neymar"></option>
+                <option value="robben"></option>
+            </datalist>
+            <hr>
+
+
+
+
+
+
+            <br>
+            <input type="submit">
+            <input type="reset">
+
+
+        </form>
+        <hr>
+        <q>we are good men</q>
+        <blockquote>we are good men</blockquote>
+        <wbr></wbr>
+        <bdi></bdi>
+        <pre>
+        <code>
+            int v = "7";
+            int v = "7";
+            int v = "7";
+        </code>
+        </pre>
+
+
+    </div>
